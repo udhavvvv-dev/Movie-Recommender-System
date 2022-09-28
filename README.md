@@ -2,9 +2,10 @@
 
 Movie Recommender System is the python Based Project To Create Content Based Recommender System with Heroku Deployment
 
-#############################################################################
+* * *
 
-Steps To Run This Project:
+### Steps To Run This Project:
+
 1) Fisrt Downlod the zip folder of project and unzip the folder 
 
 2) Install Python and Visual Studio code using below given link
@@ -18,13 +19,25 @@ Steps To Run This Project:
 ![image](https://user-images.githubusercontent.com/109918405/192830267-8050f9cb-bfa1-4834-b55f-744d34b4f870.png)
 
 Below are python libery command before run this project you make sure to run all command in terminal 
-    - StreamLit: "pip install streamlit"
-    - Pickle: "pip install pickle-mixin"
-    - Pandas: "pip install pandas"
-    - Requesta: "pip install requests"
+
+```
+StreamLit:  pip install streamlit
+```
+```
+Pickle: "pip install pickle-mixin"
+```
+```
+Pandas: "pip install pandas"
+```
+```
+Requesta: "pip install requests 
+```
   
   4)Afte installing the project required python libery we return use termianl to run our project using simple command.
-  - "streamlit run app.py" (meaning of the line is "streamlit" is package name that we are used to create this web app and run meaning to "run" this project using streamlit and "app.py" is the python file that i create the frontend of this project if in any other situation it can different if you create by own using other name so it is differnet name python extension file) 
+  ```
+  streamlit run app.py
+  ``` 
+  (meaning of the line is "streamlit" is package name that we are used to create this web app and run meaning to "run" this project using streamlit and "app.py" is the python file that i create the frontend of this project if in any other situation it can different if you create by own using other name so it is differnet name python extension file) 
  
  5) after you run this line the streamlit create a localhost in your machine and run this web application using browser
 
@@ -41,4 +54,4 @@ Below are python libery command before run this project you make sure to run all
 ![image](https://user-images.githubusercontent.com/109918405/192836167-4f05161b-1e46-4c52-b1b3-48a57bf94ece.png)
 
 
-#############################################################################
+* * *
