@@ -1,6 +1,6 @@
 # Movie-Recommender-System
 
-Movie Recommender System is the python Based Project To Create Content Based Recommender System with Heroku Deployment
+Movie Recommender System is the python Based Project To Create Content Based Recommender System
 
 * * *
 
