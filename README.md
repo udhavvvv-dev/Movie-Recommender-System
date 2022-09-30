@@ -21,16 +21,16 @@ Movie Recommender System is the python Based Project To Create Content Based Rec
 Below are python libery command before run this project you make sure to run all command in terminal 
 
 ```
-StreamLit:  pip install streamlit
+pip install streamlit
 ```
 ```
-Pickle: "pip install pickle-mixin"
+pip install pickle-mixin
 ```
 ```
-Pandas: "pip install pandas"
+pip install pandas
 ```
 ```
-Requesta: "pip install requests 
+pip install requests 
 ```
   
   4)Afte installing the project required python libery we return use termianl to run our project using simple command.
