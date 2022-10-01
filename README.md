@@ -53,5 +53,36 @@ pip install requests
   - The Result Screen you get after you search movie and get suggested by movie recommendation model
 ![image](https://user-images.githubusercontent.com/109918405/192836167-4f05161b-1e46-4c52-b1b3-48a57bf94ece.png)
 
+* * *
+
+what is role of each file in this or what it contain
+
+![image](https://user-images.githubusercontent.com/109918405/193418292-261579f4-3b6e-4801-83d3-b8d0d9aeebea.png)
+
+- ".git" file it automatically created when we initiative or init github repository to over local project folder.
+- "git attributes" file contain some command that help while hosting the project on any web services and in my case ill also use "Git LFS" to uplod some big size data file in same repositery so it also contain that lfs code to track that files.
+- "git ignore" file tells Git which files to ignore when committing your project to the GitHub repository.
+- "app.py" this file contain the frontend and backend recommendation model implemenation to present in web application using python libery "streamlit"
+- "movie_dict.pkl" this pickle file we generated using movie-recommender-system in jupyter system this file contain the dataset that we use in project but in dictonary format but some checking and error solving purposes.
+- "movie-recommender-system.ipynb" this this jupyter notebook file in this we created the movie recommendation model and in this we filer the movie dataset that we use for recommendation
+- "movies.pkl" it filter data we created to use but strealit doesnt support pandas file so use and refilter this file with other name.
+- "Procfile" A Procfile is a mechanism for declaring what commands are run by your application's containers on the Deis platform. It follows the process model. You can use a Procfile to declare various process types, such as multiple types of workers, a singleton process like a clock, or a consumer of the Twitter streaming API
+- "readme" it file contain information about our project it didnt use for deployment purpose.
+- "requirements" it file we have to generate in terminal using command to get requirements file to know deployment mechnism what we requirement we want and we have 
+- "setup.sh" defines Bourne or Korn shell environment variables necessary to build an InfoCrafter database from the command line using the icft command. The setup.sh file sets the TOOLSDIR and TOPLEVEL_BUILDDIR variables. it is use for deployement
+- "similarity.pkl" it is file that we convert from pandas to pickle so streamlit can support
+- "tmdb_5000_credits.csv" it is movie credits dataset that we have using in this project
+- "tmdb_5000_movies.csv" it is also a dataset that contain of movie id,tag,cast,crew,gener etc
+
+
+* * *
+
+what is content based recommendation system:
+
+- Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.
+- For Example Suppose User1 Like a "Iran Man" movie and rate the movie 4.5 out 5 and similarly the User2 like the same "Iran Man" and give the rating similarily to User1 so they both have equal choice in Sci-Fi movie Genre so basically the machine learning model observe the patent and next time the model suggest the movie or anything other thing according to what we want him to suggest, the model suggest the iteam according the tag system of iteam
+- if you want to know more about content based recommendation system here are some blog that you can read
+   - https://developers.google.com/machine-learning/recommendation/content-based/basics#:~:text=Content%2Dbased%20filtering%20uses%20item,previous%20actions%20or%20explicit%20feedback.
+   - https://www.kdnuggets.com/2020/07/building-content-based-book-recommendation-engine.html
 
 * * *
