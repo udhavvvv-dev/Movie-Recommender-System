@@ -55,7 +55,7 @@ pip install requests
 
 * * *
 
-what is role of each file in this or what it contain
+### what is role of each file in this or what it contain
 
 ![image](https://user-images.githubusercontent.com/109918405/193418292-261579f4-3b6e-4801-83d3-b8d0d9aeebea.png)
 
@@ -77,7 +77,7 @@ what is role of each file in this or what it contain
 
 * * *
 
-what is content based recommendation system:
+### what is content based recommendation system:
 
 - Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.
 - For Example Suppose User1 Like a "Iran Man" movie and rate the movie 4.5 out 5 and similarly the User2 like the same "Iran Man" and give the rating similarily to User1 so they both have equal choice in Sci-Fi movie Genre so basically the machine learning model observe the patent and next time the model suggest the movie or anything other thing according to what we want him to suggest, the model suggest the iteam according the tag system of iteam
