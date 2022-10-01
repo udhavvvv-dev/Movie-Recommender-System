@@ -1,6 +1,6 @@
-# Movie-Recommender-System
+# Movie Recommender System // Content Based Movie Recommender System
 
-Movie Recommender System is the python Based Project To Create Content Based Recommender System
+Movie Recommender System is the python Based Project To Create Content Based Recommender System using TMDB 5000 movie dataset from kaggle
 
 * * *
 
@@ -73,6 +73,9 @@ pip install requests
 - "similarity.pkl" it is file that we convert from pandas to pickle so streamlit can support
 - "tmdb_5000_credits.csv" it is movie credits dataset that we have using in this project
 - "tmdb_5000_movies.csv" it is also a dataset that contain of movie id,tag,cast,crew,gener etc
+   - we have both dataset file but stil you want to explore other dataset you can checkout kaggle website and i gave you this dataset site also
+      - Kaggle to find other dataset likes or other things also (https://www.kaggle.com/datasets)
+      - TMDB 5000 Movie Dataset that we are using (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
 
 * * *
